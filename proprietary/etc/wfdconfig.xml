@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
-        Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
+        Copyright (C) 2012 - 2019 Qualcomm Technologies, Inc.
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -187,7 +187,7 @@
             <M14Support>0</M14Support>              <!-- 0/1 M14 supported or not -->
             <InputCategory>
                 <Generic>1</Generic>                <!-- 0/1 - support generic or not -->
-                <HID>0</HID>                        <!-- 0/1 - support HID or not -->
+                <HID>1</HID>                        <!-- 0/1 - support HID or not -->
             </InputCategory>
 
             <!--  Supported input events  -->
@@ -211,7 +211,7 @@
                     SINGLETOUCH           BIT2
                     MULTITOUCH            BIT3
                     JOYSTICK              BIT4
-                    CAMERA                BIT5
+                    UIBC_CAMERA           BIT5
                     GESTURE               BIT6
                     REMOTECONTROL         BIT7
                 -->
