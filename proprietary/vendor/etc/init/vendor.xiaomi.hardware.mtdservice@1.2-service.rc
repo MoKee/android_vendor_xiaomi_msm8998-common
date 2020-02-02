@@ -4,5 +4,4 @@ on post-fs-data
 service vendor.mtdservice-1-2 /vendor/bin/mtd@1.2
     class hal
     user system
-    user system
     group system drmrpc
